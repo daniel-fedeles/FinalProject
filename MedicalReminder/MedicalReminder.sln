@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{2F59E88D-BB3E-4567-B0F6-33A043299B87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainModel", "DomainModel", "{F6A4441C-2FDA-40EE-95BF-5776FF04E5C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalReminder.DAL", "MedicalReminder.DAL\MedicalReminder.DAL.csproj", "{B11EA135-F317-4C09-A684-C671A5E0BB7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalReminder.Models", "MedicalReminder.Models\MedicalReminder.Models.csproj", "{901BA42F-B30A-4E75-929C-B77BF1B7DE94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{02F2B097-DB02-4E38-9216-DD3D77238299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalManager.Business", "MedicalManager.Business\MedicalManager.Business.csproj", "{BC0E152F-9C09-4B09-8178-8A45789ABEB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6856C157-A730-4557-9AF8-F3F9B660C158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalReminder.Services", "MedicalReminder.Services\MedicalReminder.Services.csproj", "{D553BD60-5E01-417E-9C38-0635A85DEE28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B11EA135-F317-4C09-A684-C671A5E0BB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11EA135-F317-4C09-A684-C671A5E0BB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11EA135-F317-4C09-A684-C671A5E0BB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11EA135-F317-4C09-A684-C671A5E0BB7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901BA42F-B30A-4E75-929C-B77BF1B7DE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901BA42F-B30A-4E75-929C-B77BF1B7DE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901BA42F-B30A-4E75-929C-B77BF1B7DE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901BA42F-B30A-4E75-929C-B77BF1B7DE94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0E152F-9C09-4B09-8178-8A45789ABEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0E152F-9C09-4B09-8178-8A45789ABEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0E152F-9C09-4B09-8178-8A45789ABEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0E152F-9C09-4B09-8178-8A45789ABEB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D553BD60-5E01-417E-9C38-0635A85DEE28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D553BD60-5E01-417E-9C38-0635A85DEE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D553BD60-5E01-417E-9C38-0635A85DEE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D553BD60-5E01-417E-9C38-0635A85DEE28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B11EA135-F317-4C09-A684-C671A5E0BB7C} = {2F59E88D-BB3E-4567-B0F6-33A043299B87}
+		{901BA42F-B30A-4E75-929C-B77BF1B7DE94} = {F6A4441C-2FDA-40EE-95BF-5776FF04E5C3}
+		{BC0E152F-9C09-4B09-8178-8A45789ABEB0} = {02F2B097-DB02-4E38-9216-DD3D77238299}
+		{D553BD60-5E01-417E-9C38-0635A85DEE28} = {6856C157-A730-4557-9AF8-F3F9B660C158}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E648F57-11F8-4D95-8225-239EB817BFA1}
+	EndGlobalSection
+EndGlobal
