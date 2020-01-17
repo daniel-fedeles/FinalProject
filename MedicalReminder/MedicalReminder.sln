@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{68
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalReminder.Services", "MedicalReminder.Services\MedicalReminder.Services.csproj", "{D553BD60-5E01-417E-9C38-0635A85DEE28}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{62062359-8063-4941-AFDD-E1B3390C741A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalReminder.Api", "MedicalReminder.Api\MedicalReminder.Api.csproj", "{893E2413-AF65-4EB1-94A7-BB823EC6CC57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,10 @@ Global
 		{D553BD60-5E01-417E-9C38-0635A85DEE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D553BD60-5E01-417E-9C38-0635A85DEE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D553BD60-5E01-417E-9C38-0635A85DEE28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{893E2413-AF65-4EB1-94A7-BB823EC6CC57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{893E2413-AF65-4EB1-94A7-BB823EC6CC57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{893E2413-AF65-4EB1-94A7-BB823EC6CC57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{893E2413-AF65-4EB1-94A7-BB823EC6CC57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 		{901BA42F-B30A-4E75-929C-B77BF1B7DE94} = {F6A4441C-2FDA-40EE-95BF-5776FF04E5C3}
 		{BC0E152F-9C09-4B09-8178-8A45789ABEB0} = {02F2B097-DB02-4E38-9216-DD3D77238299}
 		{D553BD60-5E01-417E-9C38-0635A85DEE28} = {6856C157-A730-4557-9AF8-F3F9B660C158}
+		{893E2413-AF65-4EB1-94A7-BB823EC6CC57} = {62062359-8063-4941-AFDD-E1B3390C741A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E648F57-11F8-4D95-8225-239EB817BFA1}

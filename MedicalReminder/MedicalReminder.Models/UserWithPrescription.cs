@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace MedicalReminder.Models
 {
     public class UserWithPrescription:IDEntity
     {
-        public User User { get; set; }
-        public List<Prescription> Prescriptions { get; set; }
+        public virtual User User { get; set; }
+        public Guid PrescriptionId { get; set; }
+        public Prescription Prescription { get; set; }
     }
 }

@@ -52,13 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MedicalReminderDbContext.cs" />
-    <Compile Include="Migrations\202001150630597_initial.cs" />
-    <Compile Include="Migrations\202001150630597_initial.designer.cs">
-      <DependentUpon>202001150630597_initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202001150722490_second.cs" />
-    <Compile Include="Migrations\202001150722490_second.designer.cs">
-      <DependentUpon>202001150722490_second.cs</DependentUpon>
+    <Compile Include="Migrations\202001171214003_initial.cs" />
+    <Compile Include="Migrations\202001171214003_initial.designer.cs">
+      <DependentUpon>202001171214003_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,6 +63,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
+    <Compile Include="UsersRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -79,11 +76,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202001150630597_initial.resx">
-      <DependentUpon>202001150630597_initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202001150722490_second.resx">
-      <DependentUpon>202001150722490_second.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202001171214003_initial.resx">
+      <DependentUpon>202001171214003_initial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
