@@ -5,6 +5,8 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using MedicalReminder.DAL;
+using MedicalReminder.Models;
+using Newtonsoft.Json;
 
 namespace MedicalReminder.Api.Controllers
 {
@@ -13,8 +15,10 @@ namespace MedicalReminder.Api.Controllers
         // GET: api/Users
         public IEnumerable<string> Get()
         {
+            //IEnumerable<>
             UsersRepository u = new UsersRepository();
-            return u.GetAllUsers() as IEnumerable<string>;
+            
+            return new[] {JsonConvert.SerializeObject(u.GetAllUsers())};
         }
 
         // GET: api/Users/5
