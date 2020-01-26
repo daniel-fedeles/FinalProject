@@ -12,7 +12,7 @@ namespace MedicalReminder.Models
         public DateTime? ManufactureDate { get; set; }
         public DateTime ExpirationDate { get; set; }
         public DateTime? NrOfDaysFromOpening { get; set; }
-
-        public ICollection<Prescription> Prescription { get; set; }
+        public Prescription Prescription { get; set; }
+        public Guid PrescriptionId { get; set; }
     }
 }

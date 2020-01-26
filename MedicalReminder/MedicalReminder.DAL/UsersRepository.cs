@@ -6,10 +6,18 @@ namespace MedicalReminder.DAL
 {
     public class UsersRepository
     {
-        public List<User> GetAllUsers()
+        public IEnumerable<User> GetAllUsers()
         {
+            IEnumerable<User>users = new List<User>();
             var dbContext = new MedicalReminderDbContext();
-            return dbContext.Users.Select(x => x).ToList();
+            using (dbContext)
+            {
+                users = dbContext.Users.ToList();
+            }
+
+            return users;
         }
+
+
     }
 }

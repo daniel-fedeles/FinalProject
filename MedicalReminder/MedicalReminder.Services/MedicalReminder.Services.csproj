@@ -47,7 +47,6 @@
     <Compile Include="Interfaces\IDrugRepository.cs" />
     <Compile Include="Interfaces\IPerscriptionRepository.cs" />
     <Compile Include="Interfaces\IUserRepository.cs" />
-    <Compile Include="Interfaces\IUserWithPrescription.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\BaseRepository.cs" />
   </ItemGroup>

@@ -27,11 +27,11 @@
                     {
                         Id = c.Guid(nullable: false),
                         DateOfPresproption = c.DateTime(nullable: false, precision: 0, storeType: "datetime2"),
-                        DrugId = c.Guid(nullable: false),
+                        UserId = c.Guid(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Drugs", t => t.DrugId, cascadeDelete: true)
-                .Index(t => t.DrugId);
+                .ForeignKey("dbo.Users", t => t.UserId, cascadeDelete: true)
+                .Index(t => t.UserId);
             
             CreateTable(
                 "dbo.Drugs",
@@ -43,14 +43,6 @@
                         ManufactureDate = c.DateTime(precision: 0, storeType: "datetime2"),
                         ExpirationDate = c.DateTime(nullable: false, precision: 0, storeType: "datetime2"),
                         NrOfDaysFromOpening = c.DateTime(precision: 0, storeType: "datetime2"),
-                    })
-                .PrimaryKey(t => t.Id);
-            
-            CreateTable(
-                "dbo.UserWithPrescriptions",
-                c => new
-                    {
-                        Id = c.Guid(nullable: false),
                         PrescriptionId = c.Guid(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
@@ -68,24 +60,19 @@
                         Email = c.String(nullable: false, maxLength: 250),
                         DateOfBirth = c.DateTime(nullable: false, precision: 0, storeType: "datetime2"),
                     })
-                .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.UserWithPrescriptions", t => t.Id)
-                .Index(t => t.Id);
+                .PrimaryKey(t => t.Id);
             
         }
         
         public override void Down()
         {
-            DropForeignKey("dbo.Users", "Id", "dbo.UserWithPrescriptions");
-            DropForeignKey("dbo.UserWithPrescriptions", "PrescriptionId", "dbo.Prescriptions");
-            DropForeignKey("dbo.Prescriptions", "DrugId", "dbo.Drugs");
+            DropForeignKey("dbo.Prescriptions", "UserId", "dbo.Users");
+            DropForeignKey("dbo.Drugs", "PrescriptionId", "dbo.Prescriptions");
             DropForeignKey("dbo.Doctors", "Id", "dbo.Prescriptions");
-            DropIndex("dbo.Users", new[] { "Id" });
-            DropIndex("dbo.UserWithPrescriptions", new[] { "PrescriptionId" });
-            DropIndex("dbo.Prescriptions", new[] { "DrugId" });
+            DropIndex("dbo.Drugs", new[] { "PrescriptionId" });
+            DropIndex("dbo.Prescriptions", new[] { "UserId" });
             DropIndex("dbo.Doctors", new[] { "Id" });
             DropTable("dbo.Users");
-            DropTable("dbo.UserWithPrescriptions");
             DropTable("dbo.Drugs");
             DropTable("dbo.Prescriptions");
             DropTable("dbo.Doctors");

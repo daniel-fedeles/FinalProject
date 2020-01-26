@@ -123,13 +123,13 @@
   <data name="DrugId1" xml:space="preserve">
     <value>868ACD3E-6806-4DB9-826B-D875A34F2283</value>
   </data>
+  <data name="DrugId2" xml:space="preserve">
+    <value>44919B15-70AD-4C8E-B82E-8F80497A7B8A</value>
+  </data>
   <data name="PrescriptionId1" xml:space="preserve">
     <value>92C9B88E-BEBE-4892-BC90-6D0BC5D90FB3</value>
   </data>
   <data name="UserId1" xml:space="preserve">
     <value>43AA5D6A-6FDC-489F-8907-EE48AAF06D68</value>
-  </data>
-  <data name="UserWithPrescriptionId1" xml:space="preserve">
-    <value>44919B15-70AD-4C8E-B82E-8F80497A7B8A</value>
   </data>
 </root>

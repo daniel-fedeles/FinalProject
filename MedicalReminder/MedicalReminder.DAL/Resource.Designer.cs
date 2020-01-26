@@ -79,6 +79,15 @@ namespace MedicalReminder.DAL {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 44919B15-70AD-4C8E-B82E-8F80497A7B8A.
+        /// </summary>
+        internal static string DrugId2 {
+            get {
+                return ResourceManager.GetString("DrugId2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 92C9B88E-BEBE-4892-BC90-6D0BC5D90FB3.
         /// </summary>
         internal static string PrescriptionId1 {
@@ -93,15 +102,6 @@ namespace MedicalReminder.DAL {
         internal static string UserId1 {
             get {
                 return ResourceManager.GetString("UserId1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 44919B15-70AD-4C8E-B82E-8F80497A7B8A.
-        /// </summary>
-        internal static string UserWithPrescriptionId1 {
-            get {
-                return ResourceManager.GetString("UserWithPrescriptionId1", resourceCulture);
             }
         }
     }

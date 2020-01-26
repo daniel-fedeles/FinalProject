@@ -52,9 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MedicalReminderDbContext.cs" />
-    <Compile Include="Migrations\202001171214003_initial.cs" />
-    <Compile Include="Migrations\202001171214003_initial.designer.cs">
-      <DependentUpon>202001171214003_initial.cs</DependentUpon>
+    <Compile Include="Migrations\202001261308013_initial.cs" />
+    <Compile Include="Migrations\202001261308013_initial.designer.cs">
+      <DependentUpon>202001261308013_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,8 +76,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202001171214003_initial.resx">
-      <DependentUpon>202001171214003_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202001261308013_initial.resx">
+      <DependentUpon>202001261308013_initial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>

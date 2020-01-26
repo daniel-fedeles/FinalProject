@@ -4,39 +4,34 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using MedicalReminder.DAL;
-using MedicalReminder.Models;
-using Newtonsoft.Json;
 
 namespace MedicalReminder.Api.Controllers
 {
-    public class UsersController : ApiController
+    public class DoctorsController : ApiController
     {
-        // GET: api/Users
+        // GET: api/Doctors
         public IEnumerable<string> Get()
         {
-            UsersRepository u = new UsersRepository();
-            
-            return new[] {JsonConvert.SerializeObject(u.GetAllUsers())};
+            return new string[] { "value1", "value2" };
         }
 
-        // GET: api/Users/5
+        // GET: api/Doctors/5
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST: api/Users
+        // POST: api/Doctors
         public void Post([FromBody]string value)
         {
         }
 
-        // PUT: api/Users/5
+        // PUT: api/Doctors/5
         public void Put(int id, [FromBody]string value)
         {
         }
 
-        // DELETE: api/Users/5
+        // DELETE: api/Doctors/5
         public void Delete(int id)
         {
         }

@@ -18,8 +18,7 @@ namespace MedicalReminder.Models
         public string Email { get; set; }
 
         public DateTime DateOfBirth { get; set; }
-
-        public virtual UserWithPrescription UserWithPrescription { get; set; }
+        public ICollection<Prescription> Prescriptions { get; set; }
     }
 
 

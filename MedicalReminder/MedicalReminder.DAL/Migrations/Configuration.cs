@@ -18,19 +18,8 @@ namespace MedicalReminder.DAL.Migrations
 
         protected override void Seed(MedicalReminder.DAL.MedicalReminderDbContext context)
         {
-            //  This method will be called after migrating to the latest version.
+ 
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method
-            //  to avoid creating duplicate seed data.
-            User user = new User()
-            {
-                Id = Guid.Parse(Resource.UserId1),
-                FirstName = "aaa",
-                LastName = "bbb",
-                Email = "zzz@yyy.ccc",
-                UserName = "blabla",
-                DateOfBirth = DateTime.Parse("Jan-22-1983")
-            };
             Doctor doc = new Doctor()
             {
                 Id = Guid.Parse(Resource.DoctorId1),
@@ -46,26 +35,37 @@ namespace MedicalReminder.DAL.Migrations
                 ExpirationDate = DateTime.Parse("Dec-30-2020"),
                 Weight = 23.6
             };
+
+            Drug drug2 = new Drug()
+            {
+                Id = Guid.Parse(Resource.DrugId2),
+                Name = "asasa",
+                ExpirationDate = DateTime.Parse("Dec-30-2000"),
+                Weight = 2.6
+            };
             Prescription prescription = new Prescription()
             {
                 Id = Guid.Parse(Resource.PrescriptionId1),
                 Doctor = doc,
-                Drug = drug,
-                DateOfPresproption = DateTime.Parse("Jan/18/2020")
+                Drugs = new List<Drug>() { drug, drug2},
+                DateOfPresproption = DateTime.Parse("Dec-30-2020")
             };
-            UserWithPrescription up = new UserWithPrescription()
+
+            User user = new User()
             {
-                Id = Guid.Parse(Resource.UserWithPrescriptionId1),
-                User = user,
-                Prescription = prescription
+                Id = Guid.Parse(Resource.UserId1),
+                FirstName = "aaa",
+                LastName = "bbb",
+                Email = "zzz@yyy.ccc",
+                UserName = "blabla",
+                DateOfBirth = DateTime.Parse("Jan-22-1983"),
+                Prescriptions = new List<Prescription>() { prescription}
             };
 
-
-            context.Users.AddOrUpdate(x => x.Id, user);
-            context.Doctors.AddOrUpdate(x => x.Id, doc);
-            context.Drugs.AddOrUpdate(x => x.Id, drug);
-            context.Prescriptions.AddOrUpdate(x => x.Id, prescription);
-            context.UserWithPrescriptions.AddOrUpdate(x => x.Id, up);
+            context.Doctors.AddOrUpdate(id => id.Id, doc);
+            context.Drugs.AddOrUpdate(id => id.Id, drug);
+            context.Prescriptions.AddOrUpdate(id => id.Id, prescription);
+            context.Users.AddOrUpdate(id => id.Id, user);
 
         }
     }

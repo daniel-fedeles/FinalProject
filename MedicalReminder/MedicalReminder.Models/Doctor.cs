@@ -11,6 +11,7 @@
 
         public string Hospital { get; set; }
 
-        public Prescription Prescription { get; set; }
+        public virtual Prescription Prescription { get; set; }
+
     }
 }

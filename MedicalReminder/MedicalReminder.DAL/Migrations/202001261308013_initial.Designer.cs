@@ -13,7 +13,7 @@ namespace MedicalReminder.DAL.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202001171214003_initial"; }
+            get { return "202001261308013_initial"; }
         }
         
         string IMigrationMetadata.Source
