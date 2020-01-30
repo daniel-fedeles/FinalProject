@@ -17,9 +17,7 @@
                         Specialization = c.String(),
                         Hospital = c.String(),
                     })
-                .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Prescriptions", t => t.Id)
-                .Index(t => t.Id);
+                .PrimaryKey(t => t.Id);
             
             CreateTable(
                 "dbo.Prescriptions",
@@ -30,7 +28,9 @@
                         UserId = c.Guid(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.Doctors", t => t.Id)
                 .ForeignKey("dbo.Users", t => t.UserId, cascadeDelete: true)
+                .Index(t => t.Id)
                 .Index(t => t.UserId);
             
             CreateTable(
@@ -68,10 +68,10 @@
         {
             DropForeignKey("dbo.Prescriptions", "UserId", "dbo.Users");
             DropForeignKey("dbo.Drugs", "PrescriptionId", "dbo.Prescriptions");
-            DropForeignKey("dbo.Doctors", "Id", "dbo.Prescriptions");
+            DropForeignKey("dbo.Prescriptions", "Id", "dbo.Doctors");
             DropIndex("dbo.Drugs", new[] { "PrescriptionId" });
             DropIndex("dbo.Prescriptions", new[] { "UserId" });
-            DropIndex("dbo.Doctors", new[] { "Id" });
+            DropIndex("dbo.Prescriptions", new[] { "Id" });
             DropTable("dbo.Users");
             DropTable("dbo.Drugs");
             DropTable("dbo.Prescriptions");

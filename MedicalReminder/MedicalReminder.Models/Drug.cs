@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace MedicalReminder.Models
 {
-    public class Drug:IDEntity
+    public class Drug : IDEntity
     {
         public string Name { get; set; }
 

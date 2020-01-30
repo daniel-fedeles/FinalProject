@@ -40,6 +40,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -52,9 +55,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MedicalReminderDbContext.cs" />
-    <Compile Include="Migrations\202001261308013_initial.cs" />
-    <Compile Include="Migrations\202001261308013_initial.designer.cs">
-      <DependentUpon>202001261308013_initial.cs</DependentUpon>
+    <Compile Include="Migrations\202001300628384_initial.cs" />
+    <Compile Include="Migrations\202001300628384_initial.designer.cs">
+      <DependentUpon>202001300628384_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001300721563_initial1.cs" />
+    <Compile Include="Migrations\202001300721563_initial1.designer.cs">
+      <DependentUpon>202001300721563_initial1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,8 +83,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202001261308013_initial.resx">
-      <DependentUpon>202001261308013_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202001300628384_initial.resx">
+      <DependentUpon>202001300628384_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001300721563_initial1.resx">
+      <DependentUpon>202001300721563_initial1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>

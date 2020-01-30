@@ -1,23 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
-using MedicalReminder.DAL;
-using MedicalReminder.Models;
+﻿using MedicalReminder.DAL;
 using Newtonsoft.Json;
-
+using System.Collections.Generic;
+using System.Web.Http;
+[assembly: log4net.Config.XmlConfigurator(Watch = true)]
 namespace MedicalReminder.Api.Controllers
 {
     public class UsersController : ApiController
     {
+        private log4net.ILog log = log4net.LogManager.GetLogger(typeof(UsersController));
         // GET: api/Users
         public IEnumerable<string> Get()
         {
+            log.Info("OK");
             UsersRepository u = new UsersRepository();
-            
-            return new[] {JsonConvert.SerializeObject(u.GetAllUsers())};
+            log.Info(u.GetAllUsers());
+            return new[] { JsonConvert.SerializeObject(u.GetAllUsers()) };
         }
 
         // GET: api/Users/5

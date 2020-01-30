@@ -1,18 +1,14 @@
 ﻿using MedicalReminder.Models;
 using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MedicalReminder.DAL
 {
-    public class MedicalReminderDbContext:DbContext
+    public class MedicalReminderDbContext : DbContext
     {
-        public MedicalReminderDbContext():base("MedicalApp")
+        public MedicalReminderDbContext() : base("MedicalApp")
         {
-            
+
         }
 
         public DbSet<Doctor> Doctors { get; set; }
@@ -79,18 +75,18 @@ namespace MedicalReminder.DAL
 
             //Relations
             modelBuilder.Entity<Prescription>()
-                .HasOptional(a => a.Doctor)
-                .WithRequired(ab => ab.Prescription);
+                .HasRequired(a => a.Doctor)
+                .WithRequiredDependent(ab => ab.Prescription);
 
             modelBuilder.Entity<Prescription>()
                 .HasRequired(p => p.User)
                 .WithMany(p => p.Prescriptions)
-                .HasForeignKey(fk=>fk.UserId);
+                .HasForeignKey(fk => fk.UserId);
 
             modelBuilder.Entity<Drug>()
                 .HasRequired(p => p.Prescription)
                 .WithMany(d => d.Drugs)
-                .HasForeignKey(fk=>fk.PrescriptionId);
+                .HasForeignKey(fk => fk.PrescriptionId);
         }
     }
 }

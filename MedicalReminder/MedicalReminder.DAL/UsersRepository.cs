@@ -1,18 +1,39 @@
-﻿using System.Collections.Generic;
+﻿using MedicalReminder.Models;
+using System.Collections.Generic;
 using System.Linq;
-using MedicalReminder.Models;
 
 namespace MedicalReminder.DAL
 {
     public class UsersRepository
     {
+        public UsersRepository()
+        {
+
+        }
+
         public IEnumerable<User> GetAllUsers()
         {
-            IEnumerable<User>users = new List<User>();
+            List<User> users = new List<User>();
+
             var dbContext = new MedicalReminderDbContext();
+            var us = new List<User>();
+            var pres = new List<Prescription>();
+            var d = new List<Doctor>();
+            var drugs = new List<Drug>();
+
             using (dbContext)
             {
-                users = dbContext.Users.ToList();
+                us = dbContext.Users.ToList();
+                pres = dbContext.Prescriptions.ToList();
+                d = dbContext.Doctors.ToList();
+                drugs = dbContext.Drugs.ToList();
+
+            }
+
+
+            foreach (var user in us)
+            {
+                users.Add(user);
             }
 
             return users;

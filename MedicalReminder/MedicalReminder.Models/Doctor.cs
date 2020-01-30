@@ -1,6 +1,6 @@
 ﻿namespace MedicalReminder.Models
 {
-    public class Doctor:IDEntity
+    public class Doctor : IDEntity
     {
 
         public string FirstName { get; set; }
@@ -11,7 +11,7 @@
 
         public string Hospital { get; set; }
 
-        public virtual Prescription Prescription { get; set; }
+        public Prescription Prescription { get; set; }
 
     }
 }

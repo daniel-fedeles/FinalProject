@@ -1,13 +1,10 @@
-﻿using System.Collections.Generic;
-using System.Reflection;
-using MedicalReminder.Models;
+﻿using MedicalReminder.Models;
+using System.Collections.Generic;
 
 namespace MedicalReminder.DAL.Migrations
 {
     using System;
-    using System.Data.Entity;
     using System.Data.Entity.Migrations;
-    using System.Linq;
 
     internal sealed class Configuration : DbMigrationsConfiguration<MedicalReminder.DAL.MedicalReminderDbContext>
     {
@@ -16,9 +13,9 @@ namespace MedicalReminder.DAL.Migrations
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(MedicalReminder.DAL.MedicalReminderDbContext context)
+        protected override void Seed(MedicalReminderDbContext context)
         {
- 
+
 
             Doctor doc = new Doctor()
             {
@@ -46,8 +43,9 @@ namespace MedicalReminder.DAL.Migrations
             Prescription prescription = new Prescription()
             {
                 Id = Guid.Parse(Resource.PrescriptionId1),
+                DoctorId = doc.Id,
                 Doctor = doc,
-                Drugs = new List<Drug>() { drug, drug2},
+                Drugs = new List<Drug>() { drug, drug2 },
                 DateOfPresproption = DateTime.Parse("Dec-30-2020")
             };
 
@@ -59,9 +57,8 @@ namespace MedicalReminder.DAL.Migrations
                 Email = "zzz@yyy.ccc",
                 UserName = "blabla",
                 DateOfBirth = DateTime.Parse("Jan-22-1983"),
-                Prescriptions = new List<Prescription>() { prescription}
+                Prescriptions = new List<Prescription>() { prescription }
             };
-
             context.Doctors.AddOrUpdate(id => id.Id, doc);
             context.Drugs.AddOrUpdate(id => id.Id, drug);
             context.Prescriptions.AddOrUpdate(id => id.Id, prescription);
