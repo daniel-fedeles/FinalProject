@@ -1,0 +1,261 @@
+INFO 2020-01-30 04:13:02 – [
+  {
+    "UserName": "blabla",
+    "FirstName": "aaa",
+    "LastName": "bbb",
+    "Email": "zzz@yyy.ccc",
+    "DateOfBirth": "1983-01-22T00:00:00",
+    "Prescriptions": [],
+    "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+  }
+]
+INFO 2020-01-30 04:17:38 – [
+  {
+    "UserName": "blabla",
+    "FirstName": "aaa",
+    "LastName": "bbb",
+    "Email": "zzz@yyy.ccc",
+    "DateOfBirth": "1983-01-22T00:00:00",
+    "Prescriptions": [],
+    "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+  }
+]
+INFO 2020-01-30 04:18:42 – [
+  {
+    "UserName": "blabla",
+    "FirstName": "aaa",
+    "LastName": "bbb",
+    "Email": "zzz@yyy.ccc",
+    "DateOfBirth": "1983-01-22T00:00:00",
+    "Prescriptions": [],
+    "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+  }
+]
+INFO 2020-01-31 07:47:19 – [
+  {
+    "UserName": "blabla",
+    "FirstName": "aaa",
+    "LastName": "bbb",
+    "Email": "zzz@yyy.ccc",
+    "DateOfBirth": "1983-01-22T00:00:00",
+    "Prescriptions": [],
+    "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+  }
+]
+INFO 2020-01-31 07:48:37 – [
+  {
+    "UserName": "blabla",
+    "FirstName": "aaa",
+    "LastName": "bbb",
+    "Email": "zzz@yyy.ccc",
+    "DateOfBirth": "1983-01-22T00:00:00",
+    "Prescriptions": [],
+    "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+  }
+]
+INFO 2020-01-31 07:50:46 – [
+  {
+    "UserName": "blabla",
+    "FirstName": "aaa",
+    "LastName": "bbb",
+    "Email": "zzz@yyy.ccc",
+    "DateOfBirth": "1983-01-22T00:00:00",
+    "Prescriptions": [],
+    "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+  }
+]
+INFO 2020-01-31 08:01:17 – [
+  {
+    "UserName": "blabla",
+    "FirstName": "aaa",
+    "LastName": "bbb",
+    "Email": "zzz@yyy.ccc",
+    "DateOfBirth": "1983-01-22T00:00:00",
+    "Prescriptions": [],
+    "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+  }
+]
+INFO 2020-01-31 08:03:42 – [
+  {
+    "DateOfPresproption": "2020-12-30T00:00:00",
+    "DoctorId": "c73ae453-3122-4270-b134-ecf937ed7f2c",
+    "Doctor": null,
+    "User": null,
+    "UserId": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68",
+    "Drugs": [],
+    "Id": "c73ae453-3122-4270-b134-ecf937ed7f2c"
+  }
+]
+INFO 2020-01-31 02:49:08 – [
+  {
+    "DateOfPresproption": "2020-12-30T00:00:00",
+    "DoctorId": "c73ae453-3122-4270-b134-ecf937ed7f2c",
+    "Doctor": null,
+    "User": null,
+    "UserId": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68",
+    "Drugs": [],
+    "Id": "c73ae453-3122-4270-b134-ecf937ed7f2c"
+  }
+]
+INFO 2020-01-31 02:49:08 – [
+  {
+    "UserName": "blabla",
+    "FirstName": "aaa",
+    "LastName": "bbb",
+    "Email": "zzz@yyy.ccc",
+    "DateOfBirth": "1983-01-22T00:00:00",
+    "Prescriptions": [],
+    "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+  }
+]
+INFO 2020-01-31 03:11:51 – {
+  "UserName": "blabla",
+  "FirstName": "aaa",
+  "LastName": "bbb",
+  "Email": "zzz@yyy.ccc",
+  "DateOfBirth": "1983-01-22T00:00:00",
+  "Prescriptions": [],
+  "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+}
+INFO 2020-01-31 03:17:36 – {
+  "UserName": "blabla",
+  "FirstName": "aaa",
+  "LastName": "bbb",
+  "Email": "zzz@yyy.ccc",
+  "DateOfBirth": "1983-01-22T00:00:00",
+  "Prescriptions": [],
+  "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+}
+INFO 2020-01-31 03:17:47 – {
+  "UserName": "blabla",
+  "FirstName": "aaa",
+  "LastName": "bbb",
+  "Email": "zzz@yyy.ccc",
+  "DateOfBirth": "0001-01-01T00:00:00",
+  "Prescriptions": [
+    null
+  ],
+  "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+}
+INFO 2020-01-31 03:18:18 – {
+  "UserName": "blabla",
+  "FirstName": "aaa",
+  "LastName": "bbb",
+  "Email": "zzz@yyy.ccc",
+  "DateOfBirth": "0001-01-01T00:00:00",
+  "Prescriptions": [
+    null
+  ],
+  "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+}
+INFO 2020-01-31 03:18:26 – {
+  "UserName": "blabla",
+  "FirstName": "aaa",
+  "LastName": "bbb",
+  "Email": "zzz@yyy.ccc",
+  "DateOfBirth": "0001-01-01T00:00:00",
+  "Prescriptions": [
+    {
+      "DateOfPresproption": "2020-12-30T00:00:00",
+      "DoctorId": "c73ae453-3122-4270-b134-ecf937ed7f2c",
+      "Doctor": null,
+      "User": null,
+      "UserId": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68",
+      "Drugs": [],
+      "Id": "c73ae453-3122-4270-b134-ecf937ed7f2c"
+    }
+  ],
+  "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+}
+INFO 2020-01-31 03:23:05 – {
+  "UserName": "blabla",
+  "FirstName": "aaa",
+  "LastName": "bbb",
+  "Email": "zzz@yyy.ccc",
+  "DateOfBirth": "0001-01-01T00:00:00",
+  "Prescriptions": [
+    {
+      "DateOfPresproption": "2020-12-30T00:00:00",
+      "DoctorId": "c73ae453-3122-4270-b134-ecf937ed7f2c",
+      "Doctor": null,
+      "User": null,
+      "UserId": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68",
+      "Drugs": [],
+      "Id": "c73ae453-3122-4270-b134-ecf937ed7f2c"
+    }
+  ],
+  "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+}
+INFO 2020-01-31 03:23:15 – {
+  "UserName": "blabla",
+  "FirstName": "aaa",
+  "LastName": "bbb",
+  "Email": "zzz@yyy.ccc",
+  "DateOfBirth": "0001-01-01T00:00:00",
+  "Prescriptions": [
+    {
+      "DateOfPresproption": "2020-12-30T00:00:00",
+      "DoctorId": "c73ae453-3122-4270-b134-ecf937ed7f2c",
+      "Doctor": {
+        "FirstName": "zzz",
+        "LastName": "cccc",
+        "Specialization": "Ceva",
+        "Hospital": "Arcadia",
+        "Prescription": null,
+        "Id": "c73ae453-3122-4270-b134-ecf937ed7f2c"
+      },
+      "User": null,
+      "UserId": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68",
+      "Drugs": [],
+      "Id": "c73ae453-3122-4270-b134-ecf937ed7f2c"
+    }
+  ],
+  "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+}
+INFO 2020-01-31 03:30:37 – {
+  "UserName": "blabla",
+  "FirstName": "aaa",
+  "LastName": "bbb",
+  "Email": "zzz@yyy.ccc",
+  "DateOfBirth": "0001-01-01T00:00:00",
+  "Prescriptions": [
+    {
+      "DateOfPresproption": "2020-12-30T00:00:00",
+      "DoctorId": "c73ae453-3122-4270-b134-ecf937ed7f2c",
+      "Doctor": {
+        "FirstName": "zzz",
+        "LastName": "cccc",
+        "Specialization": "Ceva",
+        "Hospital": "Arcadia",
+        "Prescription": null,
+        "Id": "c73ae453-3122-4270-b134-ecf937ed7f2c"
+      },
+      "User": null,
+      "UserId": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68",
+      "Drugs": [
+        {
+          "Name": "asasa",
+          "Weight": 2.6,
+          "ManufactureDate": null,
+          "ExpirationDate": "2000-12-30T00:00:00",
+          "NrOfDaysFromOpening": null,
+          "Prescription": null,
+          "PrescriptionId": "c73ae453-3122-4270-b134-ecf937ed7f2c",
+          "Id": "44919b15-70ad-4c8e-b82e-8f80497a7b8a"
+        },
+        {
+          "Name": "Aspenter",
+          "Weight": 23.6,
+          "ManufactureDate": null,
+          "ExpirationDate": "2020-12-30T00:00:00",
+          "NrOfDaysFromOpening": null,
+          "Prescription": null,
+          "PrescriptionId": "c73ae453-3122-4270-b134-ecf937ed7f2c",
+          "Id": "868acd3e-6806-4db9-826b-d875a34f2283"
+        }
+      ],
+      "Id": "c73ae453-3122-4270-b134-ecf937ed7f2c"
+    }
+  ],
+  "Id": "43aa5d6a-6fdc-489f-8907-ee48aaf06d68"
+}
