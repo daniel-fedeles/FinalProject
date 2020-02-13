@@ -5,7 +5,11 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-[assembly: log4net.Config.XmlConfigurator(ConfigFile = "Web.config", Watch = true)]
+[assembly: log4net.Config.XmlConfigurator(
+    ConfigFile = "LogForNet.Config",
+    Watch = true
+//, ConfigFileExtension = "LogForNet.Config"
+)]
 namespace MoviesLibrary
 {
     public class MvcApplication : System.Web.HttpApplication
@@ -17,6 +21,8 @@ namespace MoviesLibrary
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            log4net.Config.XmlConfigurator.Configure();
 
 
             GlobalConfiguration.Configuration.Formatters.JsonFormatter.MediaTypeMappings

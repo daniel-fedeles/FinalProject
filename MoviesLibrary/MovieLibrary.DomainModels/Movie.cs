@@ -10,6 +10,7 @@ namespace MovieLibrary.DomainModels
 
 
         public ApplicationUser UserApp { get; set; }
+
         [Required]
         public string UserAppId { get; set; }
 
@@ -18,8 +19,10 @@ namespace MovieLibrary.DomainModels
 
 
         public Genre Genre { get; set; }
+
         [Required]
         public string GenreId { get; set; }
+
 
     }
 }

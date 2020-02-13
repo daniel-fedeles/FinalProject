@@ -1,0 +1,211 @@
+                          
+                          
+ DateAndTime: 2020-02-12 15:50:44,304                           
+ Thread: [6]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: StartLog                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:50:44,362                           
+ Thread: [6]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: MoviesLibrary.Models.MovieFormViewModel                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController.Create                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:50:47,859                           
+ Thread: [8]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: StartLog                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:50:47,859                           
+ Thread: [8]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: MoviesLibrary.Models.MovieFormViewModel                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController.Create                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:50:47,860                           
+ Thread: [8]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: MovieLibrary.DomainModels.Movie                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController.Create                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:50:47,882                           
+ Thread: [11]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: StartLog                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:50:47,892                           
+ Thread: [11]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: {MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel}                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:50:47,892                           
+ Thread: [11]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: {MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie}                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:51:29,923                           
+ Thread: [15]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: StartLog                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:51:29,929                           
+ Thread: [15]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: MoviesLibrary.Models.MovieFormViewModel                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController.Create                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:51:33,091                           
+ Thread: [8]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: StartLog                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:51:33,092                           
+ Thread: [8]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: MoviesLibrary.Models.MovieFormViewModel                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController.Create                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:51:33,092                           
+ Thread: [8]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: MovieLibrary.DomainModels.Movie                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController.Create                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:51:33,116                           
+ Thread: [15]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: StartLog                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:51:33,124                           
+ Thread: [15]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: {MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel}                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 15:51:33,125                           
+ Thread: [15]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: {MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie}                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 16:02:59,489                           
+ Thread: [43]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: StartLog                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 16:02:59,579                           
+ Thread: [43]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: {MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel}                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 16:02:59,579                           
+ Thread: [43]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: {MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie}                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 16:03:01,553                           
+ Thread: [42]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: StartLog                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
+                          
+                                                    
+                          
+ DateAndTime: 2020-02-12 16:03:01,571                           
+ Thread: [42]                           
+ Level: INFO                            
+ Logger: MoviesLibrary.Controllers.MoviesController                           
+ Identity: [gigikss]                            
+ Message: MoviesLibrary.Models.MovieFormViewModel                          
+ StackTrace: MoviesLibrary.Controllers.MoviesController.Create                                                  
+                          
+                          

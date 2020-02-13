@@ -1,0 +1,26 @@
+﻿@model List<MoviesLibrary.Models.MovieFormViewModel>
+@{
+    ViewBag.Title = "View Movies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section scripts
+{
+    @Scripts.Render("~/bundles/jquery")
+}
+<h2>View Movies</h2>
+
+<div class="row">
+    @foreach (var movie in Model)
+    {
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                @* <img src="..." alt="..."> *@
+                <div class="caption">
+                    <h3>@movie.Name</h3>
+                    <p>...</p>
+
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -87,6 +87,10 @@
     <Compile Include="Migrations\202002071216131_addedfkproptomovie.Designer.cs">
       <DependentUpon>202002071216131_addedfkproptomovie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002121453027_addedFirstNameLastNameAndUsername.cs" />
+    <Compile Include="Migrations\202002121453027_addedFirstNameLastNameAndUsername.Designer.cs">
+      <DependentUpon>202002121453027_addedFirstNameLastNameAndUsername.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\MoviesRepository.cs" />
@@ -122,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002071216131_addedfkproptomovie.resx">
       <DependentUpon>202002071216131_addedfkproptomovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002121453027_addedFirstNameLastNameAndUsername.resx">
+      <DependentUpon>202002121453027_addedFirstNameLastNameAndUsername.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
