@@ -58,8 +58,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Genre.cs" />
+    <Compile Include="MediaType.cs" />
     <Compile Include="Movie.cs" />
     <Compile Include="ApplicationUser.cs" />
+    <Compile Include="MovieDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

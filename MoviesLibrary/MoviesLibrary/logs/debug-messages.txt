@@ -1,783 +1,1197 @@
-                          
-                          
- DateAndTime: 2020-02-12 15:50:44,341                           
- Thread: [6]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 15:50:44 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:44,354                           
- Thread: [6]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: SELECT 
-    [Extent1].[Id] AS [Id], 
-    [Extent1].[Name] AS [Name]
-    FROM [dbo].[Genres] AS [Extent1]                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:44,359                           
- Thread: [6]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:00,086 
+                         
+ Thread: [61] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- p__linq__0: 'cf5c4135-6219-4f7d-ba4a-3b8c18a6228b' (Type = String, Size = 4000)
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:00,095 
+                         
+ Thread: [61] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Executing at 14.02.2020 16:02:00 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:00,099 
+                         
+ Thread: [61] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Completed in 3 ms with result: SqlDataReader
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:00,100 
+                         
+ Thread: [61] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:44,360                           
- Thread: [6]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 15:50:44 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:44,361                           
- Thread: [6]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Completed in 0 ms with result: SqlDataReader
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:44,361                           
- Thread: [6]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:44,362                           
- Thread: [6]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 15:50:44 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,862                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,863                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Started transaction at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,865                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: INSERT [dbo].[Movies]([Id], [UserAppId], [MovieName], [GenreId])
-VALUES (@0, @1, @2, @3)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,866                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @0: 'fdb6a7cb-02b1-4aa7-97dc-f6ab677cb4de' (Type = String, Size = 128)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,866                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @1: '8b1c565f-c6a7-457f-915b-1ec631203d18' (Type = String, Size = 128)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,867                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @2: 'ff' (Type = String, Size = -1)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,867                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @3: '638fc2a4-4318-47bc-940c-00b34909f8f5' (Type = String, Size = 128)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,867                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,868                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Completed in 0 ms with result: 1
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,870                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,871                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Committed transaction at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,873                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,883                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,884                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:00,101 
+                         
+ Thread: [61] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Closed connection at 14.02.2020 16:02:00 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:38,919 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Opened connection at 14.02.2020 16:02:38 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:38,920 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: SELECT 
     [Extent1].[Id] AS [Id], 
     [Extent1].[UserAppId] AS [UserAppId], 
     [Extent1].[MovieName] AS [MovieName], 
     [Extent1].[GenreId] AS [GenreId]
     FROM [dbo].[Movies] AS [Extent1]
-    WHERE [Extent1].[UserAppId] = @p__linq__0                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,884                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+    WHERE [Extent1].[UserAppId] = @p__linq__0
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:38,922 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,884                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- p__linq__0: '8b1c565f-c6a7-457f-915b-1ec631203d18' (Type = String, Size = 4000)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,885                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,889                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:38,923 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- p__linq__0: 'cf5c4135-6219-4f7d-ba4a-3b8c18a6228b' (Type = String, Size = 4000)
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:38,924 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Executing at 14.02.2020 16:02:38 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:38,927 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Completed in 2 ms with result: SqlDataReader
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:38,928 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: 
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:38,930 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Closed connection at 14.02.2020 16:02:38 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,075 
+                         
+ Thread: [63] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Opened connection at 14.02.2020 16:02:52 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,075 
+                         
+ Thread: [63] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[UserAppId] AS [UserAppId], 
+    [Extent1].[MovieName] AS [MovieName], 
+    [Extent1].[GenreId] AS [GenreId]
+    FROM [dbo].[Movies] AS [Extent1]
+    WHERE [Extent1].[UserAppId] = @p__linq__0
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,076 
+                         
+ Thread: [63] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: 
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,076 
+                         
+ Thread: [63] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- p__linq__0: 'cf5c4135-6219-4f7d-ba4a-3b8c18a6228b' (Type = String, Size = 4000)
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,076 
+                         
+ Thread: [63] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Executing at 14.02.2020 16:02:52 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,078 
+                         
+ Thread: [63] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: -- Completed in 1 ms with result: SqlDataReader
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,889                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,079 
+                         
+ Thread: [63] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,890                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,923                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 15:51:29 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,924                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: SELECT 
-    [Extent1].[Id] AS [Id], 
-    [Extent1].[Name] AS [Name]
-    FROM [dbo].[Genres] AS [Extent1]                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,924                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,925                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 15:51:29 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,927                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Completed in 0 ms with result: SqlDataReader
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,927                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,928                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 15:51:29 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,093                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,095                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Started transaction at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,096                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: INSERT [dbo].[Movies]([Id], [UserAppId], [MovieName], [GenreId])
-VALUES (@0, @1, @2, @3)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,097                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @0: '28ff3cde-d5bb-4e40-9270-03e585457daf' (Type = String, Size = 128)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,098                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @1: '8b1c565f-c6a7-457f-915b-1ec631203d18' (Type = String, Size = 128)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,100                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @2: 'ssADa' (Type = String, Size = -1)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,100                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @3: '79a2683e-50f6-4aee-a3e2-d2f4f95ad36a' (Type = String, Size = 128)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,101                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,103                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Completed in 0 ms with result: 1
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,104                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,105                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Committed transaction at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,106                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,117                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,119                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,080 
+                         
+ Thread: [63] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Closed connection at 14.02.2020 16:02:52 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,708 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Opened connection at 14.02.2020 16:03:03 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,709 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: SELECT 
     [Extent1].[Id] AS [Id], 
     [Extent1].[UserAppId] AS [UserAppId], 
     [Extent1].[MovieName] AS [MovieName], 
     [Extent1].[GenreId] AS [GenreId]
     FROM [dbo].[Movies] AS [Extent1]
-    WHERE [Extent1].[UserAppId] = @p__linq__0                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,120                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+    WHERE [Extent1].[UserAppId] = @p__linq__0
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,709 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,121                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- p__linq__0: '8b1c565f-c6a7-457f-915b-1ec631203d18' (Type = String, Size = 4000)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,122                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,123                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,710 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- p__linq__0: 'cf5c4135-6219-4f7d-ba4a-3b8c18a6228b' (Type = String, Size = 4000)
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,710 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Executing at 14.02.2020 16:03:03 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,711 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: -- Completed in 0 ms with result: SqlDataReader
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,124                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,711 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,124                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,565                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 16:02:59 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,567                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,713 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Closed connection at 14.02.2020 16:03:03 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,249 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Opened connection at 14.02.2020 16:03:11 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,250 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: SELECT 
     [Extent1].[Id] AS [Id], 
     [Extent1].[UserAppId] AS [UserAppId], 
     [Extent1].[MovieName] AS [MovieName], 
     [Extent1].[GenreId] AS [GenreId]
     FROM [dbo].[Movies] AS [Extent1]
-    WHERE [Extent1].[UserAppId] = @p__linq__0                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,567                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+    WHERE [Extent1].[UserAppId] = @p__linq__0
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,252 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,569                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- p__linq__0: '8b1c565f-c6a7-457f-915b-1ec631203d18' (Type = String, Size = 4000)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,570                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 16:02:59 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,578                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Completed in 6 ms with result: SqlDataReader
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,578                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,253 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- p__linq__0: 'cf5c4135-6219-4f7d-ba4a-3b8c18a6228b' (Type = String, Size = 4000)
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,254 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Executing at 14.02.2020 16:03:11 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,255 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Completed in 0 ms with result: SqlDataReader
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,256 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,579                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 16:02:59 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,556                           
- Thread: [42]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 16:03:01 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,558                           
- Thread: [42]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,257 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Closed connection at 14.02.2020 16:03:11 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,909 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Opened connection at 14.02.2020 16:03:18 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,912 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: SELECT 
     [Extent1].[Id] AS [Id], 
-    [Extent1].[Name] AS [Name]
-    FROM [dbo].[Genres] AS [Extent1]                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,560                           
- Thread: [42]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+    [Extent1].[UserAppId] AS [UserAppId], 
+    [Extent1].[MovieName] AS [MovieName], 
+    [Extent1].[GenreId] AS [GenreId]
+    FROM [dbo].[Movies] AS [Extent1]
+    WHERE [Extent1].[UserAppId] = @p__linq__0
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,913 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,561                           
- Thread: [42]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 16:03:01 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,569                           
- Thread: [42]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Completed in 6 ms with result: SqlDataReader
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,570                           
- Thread: [42]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,913 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- p__linq__0: 'cf5c4135-6219-4f7d-ba4a-3b8c18a6228b' (Type = String, Size = 4000)
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,914 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Executing at 14.02.2020 16:03:18 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,923 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Completed in 8 ms with result: SqlDataReader
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,924 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,571                           
- Thread: [42]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 16:03:01 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                          
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,926 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Closed connection at 14.02.2020 16:03:18 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,605 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Opened connection at 14.02.2020 16:03:26 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,606 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[UserAppId] AS [UserAppId], 
+    [Extent1].[MovieName] AS [MovieName], 
+    [Extent1].[GenreId] AS [GenreId]
+    FROM [dbo].[Movies] AS [Extent1]
+    WHERE [Extent1].[UserAppId] = @p__linq__0
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,607 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: 
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,607 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- p__linq__0: 'cf5c4135-6219-4f7d-ba4a-3b8c18a6228b' (Type = String, Size = 4000)
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,608 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Executing at 14.02.2020 16:03:26 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,609 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Completed in 0 ms with result: SqlDataReader
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,609 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: 
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,611 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Closed connection at 14.02.2020 16:03:26 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         

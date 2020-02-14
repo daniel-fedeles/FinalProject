@@ -1,993 +1,3989 @@
-                          
-                          
- DateAndTime: 2020-02-12 15:50:44,304                           
- Thread: [6]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: StartLog                          
- StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:44,341                           
- Thread: [6]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 15:50:44 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:44,354                           
- Thread: [6]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: SELECT 
-    [Extent1].[Id] AS [Id], 
-    [Extent1].[Name] AS [Name]
-    FROM [dbo].[Genres] AS [Extent1]                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:44,359                           
- Thread: [6]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:44,360                           
- Thread: [6]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 15:50:44 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:44,361                           
- Thread: [6]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Completed in 0 ms with result: SqlDataReader
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:44,361                           
- Thread: [6]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:44,362                           
- Thread: [6]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 15:50:44 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:44,362                           
- Thread: [6]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: MoviesLibrary.Models.MovieFormViewModel                          
- StackTrace: MoviesLibrary.Controllers.MoviesController.Create                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,859                           
- Thread: [8]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: StartLog                          
- StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,859                           
- Thread: [8]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: MoviesLibrary.Models.MovieFormViewModel                          
- StackTrace: MoviesLibrary.Controllers.MoviesController.Create                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,860                           
- Thread: [8]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: MovieLibrary.DomainModels.Movie                          
- StackTrace: MoviesLibrary.Controllers.MoviesController.Create                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,862                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,863                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Started transaction at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,865                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: INSERT [dbo].[Movies]([Id], [UserAppId], [MovieName], [GenreId])
-VALUES (@0, @1, @2, @3)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,866                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @0: 'fdb6a7cb-02b1-4aa7-97dc-f6ab677cb4de' (Type = String, Size = 128)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,866                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @1: '8b1c565f-c6a7-457f-915b-1ec631203d18' (Type = String, Size = 128)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,867                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @2: 'ff' (Type = String, Size = -1)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,867                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @3: '638fc2a4-4318-47bc-940c-00b34909f8f5' (Type = String, Size = 128)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,867                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,868                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Completed in 0 ms with result: 1
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,870                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,871                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Committed transaction at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,873                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,882                           
- Thread: [11]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: StartLog                          
- StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,883                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,884                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: SELECT 
-    [Extent1].[Id] AS [Id], 
-    [Extent1].[UserAppId] AS [UserAppId], 
-    [Extent1].[MovieName] AS [MovieName], 
-    [Extent1].[GenreId] AS [GenreId]
-    FROM [dbo].[Movies] AS [Extent1]
-    WHERE [Extent1].[UserAppId] = @p__linq__0                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,884                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,884                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- p__linq__0: '8b1c565f-c6a7-457f-915b-1ec631203d18' (Type = String, Size = 4000)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,885                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,889                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Completed in 1 ms with result: SqlDataReader
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,889                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,890                           
- Thread: [11]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 15:50:47 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,892                           
- Thread: [11]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: {MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel}                          
- StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:50:47,892                           
- Thread: [11]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: {MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie}                          
- StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,923                           
- Thread: [15]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: StartLog                          
- StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,923                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 15:51:29 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,924                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: SELECT 
-    [Extent1].[Id] AS [Id], 
-    [Extent1].[Name] AS [Name]
-    FROM [dbo].[Genres] AS [Extent1]                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,924                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,925                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 15:51:29 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,927                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Completed in 0 ms with result: SqlDataReader
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,927                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,928                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 15:51:29 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:29,929                           
- Thread: [15]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: MoviesLibrary.Models.MovieFormViewModel                          
- StackTrace: MoviesLibrary.Controllers.MoviesController.Create                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,091                           
- Thread: [8]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: StartLog                          
- StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,092                           
- Thread: [8]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: MoviesLibrary.Models.MovieFormViewModel                          
- StackTrace: MoviesLibrary.Controllers.MoviesController.Create                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,092                           
- Thread: [8]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: MovieLibrary.DomainModels.Movie                          
- StackTrace: MoviesLibrary.Controllers.MoviesController.Create                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,093                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,095                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Started transaction at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,096                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: INSERT [dbo].[Movies]([Id], [UserAppId], [MovieName], [GenreId])
-VALUES (@0, @1, @2, @3)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,097                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @0: '28ff3cde-d5bb-4e40-9270-03e585457daf' (Type = String, Size = 128)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,098                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @1: '8b1c565f-c6a7-457f-915b-1ec631203d18' (Type = String, Size = 128)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,100                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @2: 'ssADa' (Type = String, Size = -1)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,100                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- @3: '79a2683e-50f6-4aee-a3e2-d2f4f95ad36a' (Type = String, Size = 128)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,101                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,103                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Completed in 0 ms with result: 1
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,104                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,105                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Committed transaction at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,106                           
- Thread: [8]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,116                           
- Thread: [15]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: StartLog                          
- StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,117                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,119                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,417 
+                         
+ Thread: [63] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,459 
+                         
+ Thread: [63] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Gravity",
+  "release_date": "2013-10-03T00:00:00",
+  "title": "Gravity",
+  "video": false,
+  "backdrop_path": "/cQPbUnglzgIE6XDnh1dHnHKB26Y.jpg",
+  "genre_ids": [
+    18,
+    878,
+    53
+  ],
+  "original_language": "en",
+  "overview": "Dr. Ryan Stone, a brilliant medical engineer on her first Shuttle mission, with veteran astronaut Matt Kowalsky in command of his last flight before retiring. But on a seemingly routine spacewalk, disaster strikes. The Shuttle is destroyed, leaving Stone and Kowalsky completely alone-tethered to nothing but each other and spiraling out into the blackness of space. The deafening silence tells them they have lost any link to Earth and any chance for rescue. As fear turns to panic, every gulp of air eats away at what little oxygen is left. But the only way home may be to go further out into the terrifying expanse of space.",
+  "poster_path": "/uPxtxhB2Fy9ihVqtBtNGHmknJqV.jpg",
+  "vote_average": 7.2,
+  "vote_count": 10590,
+  "id": 49047,
+  "media_type": "movie",
+  "popularity": 14.493
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,487 
+                         
+ Thread: [63] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,520 
+                         
+ Thread: [63] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Friends",
+  "release_date": "1971-03-24T00:00:00",
+  "title": "Friends",
+  "video": false,
+  "backdrop_path": "/iQzgIezYeZoklYT2c3rwoBkw2QS.jpg",
+  "genre_ids": [
+    18,
+    10749
+  ],
+  "original_language": "en",
+  "overview": "French teens Paul and Michelle run away from home to a remote beach and have a baby.",
+  "poster_path": "/lf64Ncqbg2UpEv1vfwxtUiEFsRX.jpg",
+  "vote_average": 6.3,
+  "vote_count": 10,
+  "id": 4156,
+  "media_type": "movie",
+  "popularity": 3.349
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,548 
+                         
+ Thread: [63] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,576 
+                         
+ Thread: [63] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,602 
+                         
+ Thread: [63] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,630 
+                         
+ Thread: [63] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,657 
+                         
+ Thread: [63] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,658 
+                         
+ Thread: [63] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:02:52,658 
+                         
+ Thread: [63] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,708 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: StartLog
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,708 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Opened connection at 14.02.2020 16:03:03 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,709 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: SELECT 
     [Extent1].[Id] AS [Id], 
     [Extent1].[UserAppId] AS [UserAppId], 
     [Extent1].[MovieName] AS [MovieName], 
     [Extent1].[GenreId] AS [GenreId]
     FROM [dbo].[Movies] AS [Extent1]
-    WHERE [Extent1].[UserAppId] = @p__linq__0                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,120                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+    WHERE [Extent1].[UserAppId] = @p__linq__0
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,709 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,121                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- p__linq__0: '8b1c565f-c6a7-457f-915b-1ec631203d18' (Type = String, Size = 4000)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,122                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,123                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,710 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- p__linq__0: 'cf5c4135-6219-4f7d-ba4a-3b8c18a6228b' (Type = String, Size = 4000)
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,710 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Executing at 14.02.2020 16:03:03 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,711 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: -- Completed in 0 ms with result: SqlDataReader
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,124                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,711 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,124                           
- Thread: [15]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 15:51:33 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,124                           
- Thread: [15]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: {MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel}                          
- StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 15:51:33,125                           
- Thread: [15]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: {MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie}                          
- StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,489                           
- Thread: [43]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: StartLog                          
- StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,565                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 16:02:59 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,567                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,713 
+                         
+ Thread: [62] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Closed connection at 14.02.2020 16:03:03 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,827 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,853 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,880 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,911 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "The Words",
+  "release_date": "2012-09-07T00:00:00",
+  "title": "The Words",
+  "video": false,
+  "backdrop_path": "/tH5oFO4L3NblqiOaOb70G9AbGtB.jpg",
+  "genre_ids": [
+    18,
+    53
+  ],
+  "original_language": "en",
+  "overview": "The Words follows young writer Rory Jansen who finally achieves long sought after literary success after publishing the next great American novel. There's only one catch - he didn't write it. As the past comes back to haunt him and his literary star continues to rise, Jansen is forced to confront the steep price that must be paid for stealing another man's work, and for placing ambition and success above life's most fundamental three words.",
+  "poster_path": "/iNDSm5wcdmtfKsMM7nE8XhJUBl7.jpg",
+  "vote_average": 6.6,
+  "vote_count": 699,
+  "id": 83686,
+  "media_type": "movie",
+  "popularity": 7.491
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,940 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "House of Cards",
+  "release_date": "1993-06-25T00:00:00",
+  "title": "House of Cards",
+  "video": false,
+  "backdrop_path": "/fT3iy3H5cTliQfAkIpYOCzJuRLX.jpg",
+  "genre_ids": [
+    18
+  ],
+  "original_language": "en",
+  "overview": "When Ruth Matthews's husband is killed in a fall at an archaeological dig, her daughter Sally handles her father's death in a very odd manner. As Sally's condition worsens, Ruth takes her to see Jake, an expert in childhood autism. Jake attempts to bring Sally out of her mental disarray through traditional therapy methods, but Ruth takes a different route. She risks her own sanity by attempting to enter her daughter's mind and make sense of the seemingly bizarre things that Sally does, including building a wondrous house of cards",
+  "poster_path": "/zGNROLEnESfnpsyImzQl8zffmgN.jpg",
+  "vote_average": 6.8,
+  "vote_count": 29,
+  "id": 47095,
+  "media_type": "movie",
+  "popularity": 3.628
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:03,972 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Out of Time",
+  "release_date": "2003-10-03T00:00:00",
+  "title": "Out of Time",
+  "video": false,
+  "backdrop_path": "/adnZPm5HFmrtT1DwC82p512Vmqx.jpg",
+  "genre_ids": [
+    80,
+    18,
+    53
+  ],
+  "original_language": "en",
+  "overview": "Matt Lee Whitlock, respected chief of police in small Banyan Key, Florida, must solve a vicious double homicide before he himself falls under suspicion. Matt Lee has to stay a few steps ahead of his own police force and everyone he's trusted in order to find out the truth.",
+  "poster_path": "/wdniUkm0hwXv2RqzvwWy5XtRNvB.jpg",
+  "vote_average": 6.2,
+  "vote_count": 599,
+  "id": 2116,
+  "media_type": "movie",
+  "popularity": 8.645
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:04,000 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:04,028 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Primal Fear",
+  "release_date": "1996-03-06T00:00:00",
+  "title": "Primal Fear",
+  "video": false,
+  "backdrop_path": "/99q8yb6pxGWEFcAC53S5apYQCMB.jpg",
+  "genre_ids": [
+    80,
+    18,
+    9648,
+    53
+  ],
+  "original_language": "en",
+  "overview": "An arrogant, high-powered attorney takes on the case of a poor altar boy found running away from the scene of the grisly murder of the bishop who has taken him in. The case gets a lot more complex when the accused reveals that there may or may not have been a third person in the room. The intensity builds when a surprise twist alters everyone's perception of the crime.",
+  "poster_path": "/qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+  "vote_average": 7.7,
+  "vote_count": 1465,
+  "id": 1592,
+  "media_type": "movie",
+  "popularity": 10.442
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:04,055 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:04,093 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Gravity",
+  "release_date": "2013-10-03T00:00:00",
+  "title": "Gravity",
+  "video": false,
+  "backdrop_path": "/cQPbUnglzgIE6XDnh1dHnHKB26Y.jpg",
+  "genre_ids": [
+    18,
+    878,
+    53
+  ],
+  "original_language": "en",
+  "overview": "Dr. Ryan Stone, a brilliant medical engineer on her first Shuttle mission, with veteran astronaut Matt Kowalsky in command of his last flight before retiring. But on a seemingly routine spacewalk, disaster strikes. The Shuttle is destroyed, leaving Stone and Kowalsky completely alone-tethered to nothing but each other and spiraling out into the blackness of space. The deafening silence tells them they have lost any link to Earth and any chance for rescue. As fear turns to panic, every gulp of air eats away at what little oxygen is left. But the only way home may be to go further out into the terrifying expanse of space.",
+  "poster_path": "/uPxtxhB2Fy9ihVqtBtNGHmknJqV.jpg",
+  "vote_average": 7.2,
+  "vote_count": 10590,
+  "id": 49047,
+  "media_type": "movie",
+  "popularity": 14.493
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:04,117 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:04,149 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Friends",
+  "release_date": "1971-03-24T00:00:00",
+  "title": "Friends",
+  "video": false,
+  "backdrop_path": "/iQzgIezYeZoklYT2c3rwoBkw2QS.jpg",
+  "genre_ids": [
+    18,
+    10749
+  ],
+  "original_language": "en",
+  "overview": "French teens Paul and Michelle run away from home to a remote beach and have a baby.",
+  "poster_path": "/lf64Ncqbg2UpEv1vfwxtUiEFsRX.jpg",
+  "vote_average": 6.3,
+  "vote_count": 10,
+  "id": 4156,
+  "media_type": "movie",
+  "popularity": 3.349
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:04,179 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:04,206 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:04,235 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:04,265 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:04,292 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:04,292 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:04,292 
+                         
+ Thread: [62] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,247 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: StartLog
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,249 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Opened connection at 14.02.2020 16:03:11 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,250 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: SELECT 
     [Extent1].[Id] AS [Id], 
     [Extent1].[UserAppId] AS [UserAppId], 
     [Extent1].[MovieName] AS [MovieName], 
     [Extent1].[GenreId] AS [GenreId]
     FROM [dbo].[Movies] AS [Extent1]
-    WHERE [Extent1].[UserAppId] = @p__linq__0                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,567                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+    WHERE [Extent1].[UserAppId] = @p__linq__0
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,252 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,569                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- p__linq__0: '8b1c565f-c6a7-457f-915b-1ec631203d18' (Type = String, Size = 4000)
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,570                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 16:02:59 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,578                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Completed in 6 ms with result: SqlDataReader
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,578                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,253 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- p__linq__0: 'cf5c4135-6219-4f7d-ba4a-3b8c18a6228b' (Type = String, Size = 4000)
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,254 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Executing at 14.02.2020 16:03:11 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,255 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Completed in 0 ms with result: SqlDataReader
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,256 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,579                           
- Thread: [43]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 16:02:59 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,579                           
- Thread: [43]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: {MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel}                          
- StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:02:59,579                           
- Thread: [43]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: {MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie}                          
- StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,553                           
- Thread: [42]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: StartLog                          
- StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,556                           
- Thread: [42]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Opened connection at 12.02.2020 16:03:01 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,558                           
- Thread: [42]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,257 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Closed connection at 14.02.2020 16:03:11 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,367 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,397 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,429 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,458 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "The Words",
+  "release_date": "2012-09-07T00:00:00",
+  "title": "The Words",
+  "video": false,
+  "backdrop_path": "/tH5oFO4L3NblqiOaOb70G9AbGtB.jpg",
+  "genre_ids": [
+    18,
+    53
+  ],
+  "original_language": "en",
+  "overview": "The Words follows young writer Rory Jansen who finally achieves long sought after literary success after publishing the next great American novel. There's only one catch - he didn't write it. As the past comes back to haunt him and his literary star continues to rise, Jansen is forced to confront the steep price that must be paid for stealing another man's work, and for placing ambition and success above life's most fundamental three words.",
+  "poster_path": "/iNDSm5wcdmtfKsMM7nE8XhJUBl7.jpg",
+  "vote_average": 6.6,
+  "vote_count": 699,
+  "id": 83686,
+  "media_type": "movie",
+  "popularity": 7.491
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,487 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "House of Cards",
+  "release_date": "1993-06-25T00:00:00",
+  "title": "House of Cards",
+  "video": false,
+  "backdrop_path": "/fT3iy3H5cTliQfAkIpYOCzJuRLX.jpg",
+  "genre_ids": [
+    18
+  ],
+  "original_language": "en",
+  "overview": "When Ruth Matthews's husband is killed in a fall at an archaeological dig, her daughter Sally handles her father's death in a very odd manner. As Sally's condition worsens, Ruth takes her to see Jake, an expert in childhood autism. Jake attempts to bring Sally out of her mental disarray through traditional therapy methods, but Ruth takes a different route. She risks her own sanity by attempting to enter her daughter's mind and make sense of the seemingly bizarre things that Sally does, including building a wondrous house of cards",
+  "poster_path": "/zGNROLEnESfnpsyImzQl8zffmgN.jpg",
+  "vote_average": 6.8,
+  "vote_count": 29,
+  "id": 47095,
+  "media_type": "movie",
+  "popularity": 3.628
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,517 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Out of Time",
+  "release_date": "2003-10-03T00:00:00",
+  "title": "Out of Time",
+  "video": false,
+  "backdrop_path": "/adnZPm5HFmrtT1DwC82p512Vmqx.jpg",
+  "genre_ids": [
+    80,
+    18,
+    53
+  ],
+  "original_language": "en",
+  "overview": "Matt Lee Whitlock, respected chief of police in small Banyan Key, Florida, must solve a vicious double homicide before he himself falls under suspicion. Matt Lee has to stay a few steps ahead of his own police force and everyone he's trusted in order to find out the truth.",
+  "poster_path": "/wdniUkm0hwXv2RqzvwWy5XtRNvB.jpg",
+  "vote_average": 6.2,
+  "vote_count": 599,
+  "id": 2116,
+  "media_type": "movie",
+  "popularity": 8.645
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,544 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,631 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Primal Fear",
+  "release_date": "1996-03-06T00:00:00",
+  "title": "Primal Fear",
+  "video": false,
+  "backdrop_path": "/99q8yb6pxGWEFcAC53S5apYQCMB.jpg",
+  "genre_ids": [
+    80,
+    18,
+    9648,
+    53
+  ],
+  "original_language": "en",
+  "overview": "An arrogant, high-powered attorney takes on the case of a poor altar boy found running away from the scene of the grisly murder of the bishop who has taken him in. The case gets a lot more complex when the accused reveals that there may or may not have been a third person in the room. The intensity builds when a surprise twist alters everyone's perception of the crime.",
+  "poster_path": "/qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+  "vote_average": 7.7,
+  "vote_count": 1465,
+  "id": 1592,
+  "media_type": "movie",
+  "popularity": 10.442
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,660 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:11,981 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Gravity",
+  "release_date": "2013-10-03T00:00:00",
+  "title": "Gravity",
+  "video": false,
+  "backdrop_path": "/cQPbUnglzgIE6XDnh1dHnHKB26Y.jpg",
+  "genre_ids": [
+    18,
+    878,
+    53
+  ],
+  "original_language": "en",
+  "overview": "Dr. Ryan Stone, a brilliant medical engineer on her first Shuttle mission, with veteran astronaut Matt Kowalsky in command of his last flight before retiring. But on a seemingly routine spacewalk, disaster strikes. The Shuttle is destroyed, leaving Stone and Kowalsky completely alone-tethered to nothing but each other and spiraling out into the blackness of space. The deafening silence tells them they have lost any link to Earth and any chance for rescue. As fear turns to panic, every gulp of air eats away at what little oxygen is left. But the only way home may be to go further out into the terrifying expanse of space.",
+  "poster_path": "/uPxtxhB2Fy9ihVqtBtNGHmknJqV.jpg",
+  "vote_average": 7.2,
+  "vote_count": 10590,
+  "id": 49047,
+  "media_type": "movie",
+  "popularity": 14.493
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:12,010 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:12,043 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Friends",
+  "release_date": "1971-03-24T00:00:00",
+  "title": "Friends",
+  "video": false,
+  "backdrop_path": "/iQzgIezYeZoklYT2c3rwoBkw2QS.jpg",
+  "genre_ids": [
+    18,
+    10749
+  ],
+  "original_language": "en",
+  "overview": "French teens Paul and Michelle run away from home to a remote beach and have a baby.",
+  "poster_path": "/lf64Ncqbg2UpEv1vfwxtUiEFsRX.jpg",
+  "vote_average": 6.3,
+  "vote_count": 10,
+  "id": 4156,
+  "media_type": "movie",
+  "popularity": 3.349
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:12,077 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:12,102 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:12,131 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:12,159 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:12,184 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:12,185 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:12,185 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,907 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: StartLog
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,909 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Opened connection at 14.02.2020 16:03:18 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,912 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: SELECT 
     [Extent1].[Id] AS [Id], 
-    [Extent1].[Name] AS [Name]
-    FROM [dbo].[Genres] AS [Extent1]                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,560                           
- Thread: [42]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+    [Extent1].[UserAppId] AS [UserAppId], 
+    [Extent1].[MovieName] AS [MovieName], 
+    [Extent1].[GenreId] AS [GenreId]
+    FROM [dbo].[Movies] AS [Extent1]
+    WHERE [Extent1].[UserAppId] = @p__linq__0
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,913 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,561                           
- Thread: [42]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Executing at 12.02.2020 16:03:01 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,569                           
- Thread: [42]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: -- Completed in 6 ms with result: SqlDataReader
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,570                           
- Thread: [42]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,913 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- p__linq__0: 'cf5c4135-6219-4f7d-ba4a-3b8c18a6228b' (Type = String, Size = 4000)
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,914 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Executing at 14.02.2020 16:03:18 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,923 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Completed in 8 ms with result: SqlDataReader
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,924 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
  Message: 
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,571                           
- Thread: [42]                           
- Level: DEBUG                           
- Logger: MoviesLibrary.Models.ApplicationDbContext                           
- Identity: [gigikss]                            
- Message: Closed connection at 12.02.2020 16:03:01 +02:00
-                          
- StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                                                  
-                          
-                                                    
-                          
- DateAndTime: 2020-02-12 16:03:01,571                           
- Thread: [42]                           
- Level: INFO                            
- Logger: MoviesLibrary.Controllers.MoviesController                           
- Identity: [gigikss]                            
- Message: MoviesLibrary.Models.MovieFormViewModel                          
- StackTrace: MoviesLibrary.Controllers.MoviesController.Create                                                  
-                          
-                          
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:18,926 
+                         
+ Thread: [51] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Closed connection at 14.02.2020 16:03:18 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,037 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,061 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,092 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,122 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "The Words",
+  "release_date": "2012-09-07T00:00:00",
+  "title": "The Words",
+  "video": false,
+  "backdrop_path": "/tH5oFO4L3NblqiOaOb70G9AbGtB.jpg",
+  "genre_ids": [
+    18,
+    53
+  ],
+  "original_language": "en",
+  "overview": "The Words follows young writer Rory Jansen who finally achieves long sought after literary success after publishing the next great American novel. There's only one catch - he didn't write it. As the past comes back to haunt him and his literary star continues to rise, Jansen is forced to confront the steep price that must be paid for stealing another man's work, and for placing ambition and success above life's most fundamental three words.",
+  "poster_path": "/iNDSm5wcdmtfKsMM7nE8XhJUBl7.jpg",
+  "vote_average": 6.6,
+  "vote_count": 699,
+  "id": 83686,
+  "media_type": "movie",
+  "popularity": 7.491
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,149 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "House of Cards",
+  "release_date": "1993-06-25T00:00:00",
+  "title": "House of Cards",
+  "video": false,
+  "backdrop_path": "/fT3iy3H5cTliQfAkIpYOCzJuRLX.jpg",
+  "genre_ids": [
+    18
+  ],
+  "original_language": "en",
+  "overview": "When Ruth Matthews's husband is killed in a fall at an archaeological dig, her daughter Sally handles her father's death in a very odd manner. As Sally's condition worsens, Ruth takes her to see Jake, an expert in childhood autism. Jake attempts to bring Sally out of her mental disarray through traditional therapy methods, but Ruth takes a different route. She risks her own sanity by attempting to enter her daughter's mind and make sense of the seemingly bizarre things that Sally does, including building a wondrous house of cards",
+  "poster_path": "/zGNROLEnESfnpsyImzQl8zffmgN.jpg",
+  "vote_average": 6.8,
+  "vote_count": 29,
+  "id": 47095,
+  "media_type": "movie",
+  "popularity": 3.628
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,177 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Out of Time",
+  "release_date": "2003-10-03T00:00:00",
+  "title": "Out of Time",
+  "video": false,
+  "backdrop_path": "/adnZPm5HFmrtT1DwC82p512Vmqx.jpg",
+  "genre_ids": [
+    80,
+    18,
+    53
+  ],
+  "original_language": "en",
+  "overview": "Matt Lee Whitlock, respected chief of police in small Banyan Key, Florida, must solve a vicious double homicide before he himself falls under suspicion. Matt Lee has to stay a few steps ahead of his own police force and everyone he's trusted in order to find out the truth.",
+  "poster_path": "/wdniUkm0hwXv2RqzvwWy5XtRNvB.jpg",
+  "vote_average": 6.2,
+  "vote_count": 599,
+  "id": 2116,
+  "media_type": "movie",
+  "popularity": 8.645
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,202 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,229 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Primal Fear",
+  "release_date": "1996-03-06T00:00:00",
+  "title": "Primal Fear",
+  "video": false,
+  "backdrop_path": "/99q8yb6pxGWEFcAC53S5apYQCMB.jpg",
+  "genre_ids": [
+    80,
+    18,
+    9648,
+    53
+  ],
+  "original_language": "en",
+  "overview": "An arrogant, high-powered attorney takes on the case of a poor altar boy found running away from the scene of the grisly murder of the bishop who has taken him in. The case gets a lot more complex when the accused reveals that there may or may not have been a third person in the room. The intensity builds when a surprise twist alters everyone's perception of the crime.",
+  "poster_path": "/qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+  "vote_average": 7.7,
+  "vote_count": 1465,
+  "id": 1592,
+  "media_type": "movie",
+  "popularity": 10.442
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,258 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,292 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Gravity",
+  "release_date": "2013-10-03T00:00:00",
+  "title": "Gravity",
+  "video": false,
+  "backdrop_path": "/cQPbUnglzgIE6XDnh1dHnHKB26Y.jpg",
+  "genre_ids": [
+    18,
+    878,
+    53
+  ],
+  "original_language": "en",
+  "overview": "Dr. Ryan Stone, a brilliant medical engineer on her first Shuttle mission, with veteran astronaut Matt Kowalsky in command of his last flight before retiring. But on a seemingly routine spacewalk, disaster strikes. The Shuttle is destroyed, leaving Stone and Kowalsky completely alone-tethered to nothing but each other and spiraling out into the blackness of space. The deafening silence tells them they have lost any link to Earth and any chance for rescue. As fear turns to panic, every gulp of air eats away at what little oxygen is left. But the only way home may be to go further out into the terrifying expanse of space.",
+  "poster_path": "/uPxtxhB2Fy9ihVqtBtNGHmknJqV.jpg",
+  "vote_average": 7.2,
+  "vote_count": 10590,
+  "id": 49047,
+  "media_type": "movie",
+  "popularity": 14.493
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,320 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,350 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Friends",
+  "release_date": "1971-03-24T00:00:00",
+  "title": "Friends",
+  "video": false,
+  "backdrop_path": "/iQzgIezYeZoklYT2c3rwoBkw2QS.jpg",
+  "genre_ids": [
+    18,
+    10749
+  ],
+  "original_language": "en",
+  "overview": "French teens Paul and Michelle run away from home to a remote beach and have a baby.",
+  "poster_path": "/lf64Ncqbg2UpEv1vfwxtUiEFsRX.jpg",
+  "vote_average": 6.3,
+  "vote_count": 10,
+  "id": 4156,
+  "media_type": "movie",
+  "popularity": 3.349
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,380 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,408 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,435 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,463 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,488 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,489 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:19,489 
+                         
+ Thread: [51] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,605 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: StartLog
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController..ctor                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,605 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Opened connection at 14.02.2020 16:03:26 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,606 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[UserAppId] AS [UserAppId], 
+    [Extent1].[MovieName] AS [MovieName], 
+    [Extent1].[GenreId] AS [GenreId]
+    FROM [dbo].[Movies] AS [Extent1]
+    WHERE [Extent1].[UserAppId] = @p__linq__0
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,607 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: 
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,607 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- p__linq__0: 'cf5c4135-6219-4f7d-ba4a-3b8c18a6228b' (Type = String, Size = 4000)
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,608 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Executing at 14.02.2020 16:03:26 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,609 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: -- Completed in 0 ms with result: SqlDataReader
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,609 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: 
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,611 
+                         
+ Thread: [13] 
+                         
+ Level: DEBUG 
+                         
+ Logger: MoviesLibrary.Models.ApplicationDbContext 
+                         
+ Identity: [gigik]  
+                         
+ Message: Closed connection at 14.02.2020 16:03:26 +02:00
+
+                         
+ StackTrace: MoviesLibrary.Models.ApplicationDbContext.<.ctor>b__1_0                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,721 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,747 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,774 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,809 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "The Words",
+  "release_date": "2012-09-07T00:00:00",
+  "title": "The Words",
+  "video": false,
+  "backdrop_path": "/tH5oFO4L3NblqiOaOb70G9AbGtB.jpg",
+  "genre_ids": [
+    18,
+    53
+  ],
+  "original_language": "en",
+  "overview": "The Words follows young writer Rory Jansen who finally achieves long sought after literary success after publishing the next great American novel. There's only one catch - he didn't write it. As the past comes back to haunt him and his literary star continues to rise, Jansen is forced to confront the steep price that must be paid for stealing another man's work, and for placing ambition and success above life's most fundamental three words.",
+  "poster_path": "/iNDSm5wcdmtfKsMM7nE8XhJUBl7.jpg",
+  "vote_average": 6.6,
+  "vote_count": 699,
+  "id": 83686,
+  "media_type": "movie",
+  "popularity": 7.491
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,838 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "House of Cards",
+  "release_date": "1993-06-25T00:00:00",
+  "title": "House of Cards",
+  "video": false,
+  "backdrop_path": "/fT3iy3H5cTliQfAkIpYOCzJuRLX.jpg",
+  "genre_ids": [
+    18
+  ],
+  "original_language": "en",
+  "overview": "When Ruth Matthews's husband is killed in a fall at an archaeological dig, her daughter Sally handles her father's death in a very odd manner. As Sally's condition worsens, Ruth takes her to see Jake, an expert in childhood autism. Jake attempts to bring Sally out of her mental disarray through traditional therapy methods, but Ruth takes a different route. She risks her own sanity by attempting to enter her daughter's mind and make sense of the seemingly bizarre things that Sally does, including building a wondrous house of cards",
+  "poster_path": "/zGNROLEnESfnpsyImzQl8zffmgN.jpg",
+  "vote_average": 6.8,
+  "vote_count": 29,
+  "id": 47095,
+  "media_type": "movie",
+  "popularity": 3.628
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,871 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Out of Time",
+  "release_date": "2003-10-03T00:00:00",
+  "title": "Out of Time",
+  "video": false,
+  "backdrop_path": "/adnZPm5HFmrtT1DwC82p512Vmqx.jpg",
+  "genre_ids": [
+    80,
+    18,
+    53
+  ],
+  "original_language": "en",
+  "overview": "Matt Lee Whitlock, respected chief of police in small Banyan Key, Florida, must solve a vicious double homicide before he himself falls under suspicion. Matt Lee has to stay a few steps ahead of his own police force and everyone he's trusted in order to find out the truth.",
+  "poster_path": "/wdniUkm0hwXv2RqzvwWy5XtRNvB.jpg",
+  "vote_average": 6.2,
+  "vote_count": 599,
+  "id": 2116,
+  "media_type": "movie",
+  "popularity": 8.645
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,899 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,928 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Primal Fear",
+  "release_date": "1996-03-06T00:00:00",
+  "title": "Primal Fear",
+  "video": false,
+  "backdrop_path": "/99q8yb6pxGWEFcAC53S5apYQCMB.jpg",
+  "genre_ids": [
+    80,
+    18,
+    9648,
+    53
+  ],
+  "original_language": "en",
+  "overview": "An arrogant, high-powered attorney takes on the case of a poor altar boy found running away from the scene of the grisly murder of the bishop who has taken him in. The case gets a lot more complex when the accused reveals that there may or may not have been a third person in the room. The intensity builds when a surprise twist alters everyone's perception of the crime.",
+  "poster_path": "/qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+  "vote_average": 7.7,
+  "vote_count": 1465,
+  "id": 1592,
+  "media_type": "movie",
+  "popularity": 10.442
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,957 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:26,992 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Gravity",
+  "release_date": "2013-10-03T00:00:00",
+  "title": "Gravity",
+  "video": false,
+  "backdrop_path": "/cQPbUnglzgIE6XDnh1dHnHKB26Y.jpg",
+  "genre_ids": [
+    18,
+    878,
+    53
+  ],
+  "original_language": "en",
+  "overview": "Dr. Ryan Stone, a brilliant medical engineer on her first Shuttle mission, with veteran astronaut Matt Kowalsky in command of his last flight before retiring. But on a seemingly routine spacewalk, disaster strikes. The Shuttle is destroyed, leaving Stone and Kowalsky completely alone-tethered to nothing but each other and spiraling out into the blackness of space. The deafening silence tells them they have lost any link to Earth and any chance for rescue. As fear turns to panic, every gulp of air eats away at what little oxygen is left. But the only way home may be to go further out into the terrifying expanse of space.",
+  "poster_path": "/uPxtxhB2Fy9ihVqtBtNGHmknJqV.jpg",
+  "vote_average": 7.2,
+  "vote_count": 10590,
+  "id": 49047,
+  "media_type": "movie",
+  "popularity": 14.493
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:27,020 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:27,054 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Friends",
+  "release_date": "1971-03-24T00:00:00",
+  "title": "Friends",
+  "video": false,
+  "backdrop_path": "/iQzgIezYeZoklYT2c3rwoBkw2QS.jpg",
+  "genre_ids": [
+    18,
+    10749
+  ],
+  "original_language": "en",
+  "overview": "French teens Paul and Michelle run away from home to a remote beach and have a baby.",
+  "poster_path": "/lf64Ncqbg2UpEv1vfwxtUiEFsRX.jpg",
+  "vote_average": 6.3,
+  "vote_count": 10,
+  "id": 4156,
+  "media_type": "movie",
+  "popularity": 3.349
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:27,084 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:27,112 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:27,140 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:27,169 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": "Narcos",
+  "release_date": "1992-05-21T00:00:00",
+  "title": "Narcos",
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": [
+    18
+  ],
+  "original_language": "it",
+  "overview": "",
+  "poster_path": "/oteRbxyoAkEiyfxEO9fWhzG5o2S.jpg",
+  "vote_average": 8.2,
+  "vote_count": 6,
+  "id": 341087,
+  "media_type": "movie",
+  "popularity": 1.02
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:27,197 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {
+  "adult": false,
+  "original_title": null,
+  "release_date": null,
+  "title": null,
+  "video": false,
+  "backdrop_path": null,
+  "genre_ids": null,
+  "original_language": null,
+  "overview": null,
+  "poster_path": null,
+  "vote_average": 0.0,
+  "vote_count": 0,
+  "id": 0,
+  "media_type": "movie",
+  "popularity": 0.0
+}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:27,197 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel, MoviesLibrary.Models.MovieFormViewModel}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         
+                         
+
+                         
+ DateAndTime: 2020-02-14 16:03:27,197 
+                         
+ Thread: [13] 
+                         
+ Level: INFO  
+                         
+ Logger: MoviesLibrary.Controllers.MoviesController 
+                         
+ Identity: [gigik]  
+                         
+ Message: {MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie, MovieLibrary.DomainModels.Movie}
+                         
+ StackTrace: MoviesLibrary.Controllers.MoviesController.ViewMovies                        
+                         
+
+                         
+
+                         

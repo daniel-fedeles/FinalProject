@@ -6,7 +6,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 
 [assembly: log4net.Config.XmlConfigurator(
-    ConfigFile = "LogForNet.Config",
+    ConfigFile = "Web.Config",
     Watch = true
 //, ConfigFileExtension = "LogForNet.Config"
 )]

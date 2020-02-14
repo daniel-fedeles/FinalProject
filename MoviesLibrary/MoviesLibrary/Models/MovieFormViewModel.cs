@@ -1,4 +1,5 @@
 ﻿using MovieLibrary.DomainModels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
@@ -11,6 +12,12 @@ namespace MoviesLibrary.Models
 
         [Required]
         public string Genre { get; set; }
+
+
+        public double Popularity { get; set; }
+        public DateTime ReleaseDate { get; set; }
+
+        public string ImgUrl { get; set; }
 
         public IEnumerable<Genre> Genres { get; set; }
     }
