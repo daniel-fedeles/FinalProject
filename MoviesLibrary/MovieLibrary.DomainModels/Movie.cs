@@ -1,4 +1,5 @@
 ﻿using MoviesLibrary.Models;
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace MovieLibrary.DomainModels
@@ -20,8 +21,10 @@ namespace MovieLibrary.DomainModels
 
         public Genre Genre { get; set; }
 
-        [Required]
         public string GenreId { get; set; }
+
+        public DateTime Watched { get; set; }
+        public string WatchedWith { get; set; }
 
 
     }

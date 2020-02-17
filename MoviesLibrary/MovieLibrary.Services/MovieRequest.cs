@@ -1,4 +1,5 @@
 ﻿using TMDbLib.Client;
+using TMDbLib.Objects.Movies;
 using TMDbLib.Objects.Search;
 
 namespace MovieLibrary.Services
@@ -6,29 +7,32 @@ namespace MovieLibrary.Services
     public class MovieRequest
     {
         TMDbClient client = new TMDbClient(Resource1.ApiKey);
+        SearchMovie sm = new SearchMovie();
 
         public SearchMovie GetMovies(string query)
         {
             var movies = client.SearchMovieAsync(query).Result;
 
-            var serchMovie = new SearchMovie();
 
             foreach (SearchMovie movie in movies.Results)
             {
                 if (movie.Title.ToLower() == query.ToLower())
                 {
-                    serchMovie = movie;
+                    sm = movie;
                     break;
                 }
             }
 
-            return serchMovie;
+            return sm;
         }
 
-        public void zzz()
+        public Movie GetMovieDetails()
         {
-            // var movie = client.GetMovieAsync().Result;
+            Movie movie = client.GetMovieAsync(sm.Id).Result;
+            return movie;
 
         }
+
+
     }
 }

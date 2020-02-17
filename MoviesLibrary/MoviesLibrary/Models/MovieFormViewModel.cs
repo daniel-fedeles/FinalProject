@@ -19,6 +19,7 @@ namespace MoviesLibrary.Models
 
         public string ImgUrl { get; set; }
 
-        public IEnumerable<Genre> Genres { get; set; }
+        public IList<Genre> Genres { get; set; }
+        public DateTime Watched { get; set; }
     }
 }
